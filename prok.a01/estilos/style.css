@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor1: #f03a47;
+    --cor2: #c1bdb3;
+    --cor3: #0a369d;
+    --cor4: #05f140;
+    --cor5: #202a25;
+}
+
+header h1 {
+    text-align: center;
+    background-color: var(--cor1);
+    padding: 20px;
+}
+
+nav {
+    background-color: var(--cor2);
+    padding: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+    
+}
