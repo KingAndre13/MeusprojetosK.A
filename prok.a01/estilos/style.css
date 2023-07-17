@@ -38,20 +38,25 @@ nav a {
     
 }
 
+nav a:hover {
+    color: white;
+}
 
-#telao {
+
+.telao {
     margin: auto;
-    width: 74.1%;
+    width: 74.2%;
     height: 420px;
     background-color: black;
 
 }
 
-#telao img{
+.telao img{
     position: relative;
+    display: inline-block;
 }
 
-#telao h2 {
+.telao h2 {
     position: absolute;
     top: 60%;
     left: 31.4%;
@@ -61,4 +66,15 @@ nav a {
     background-color: rgba(0, 0, 0, 0.511);
     padding: 20px 23px 74px 6px;
     font-size: 1.35em;
+}
+
+#noticia {
+    position: relative;
+    left: 854px;
+    bottom: 120px;
+    max-width: 600px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.511);
+    font-size: 1.35em;
+    padding: 20px 24px 74px 6px;
 }
