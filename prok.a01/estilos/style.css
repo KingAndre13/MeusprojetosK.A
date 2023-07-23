@@ -17,6 +17,7 @@
 
 body {
     font-family: var(--fontepri);
+    overflow-x: hidden;
 }
 
 header h1 {
@@ -52,25 +53,42 @@ nav a:hover {
 
 }
 
-.telao img {
-    text-align: center;
-}
-
 .telao h2 {
     position: absolute;
+    display: inline-block;
     top: 63%;
     left: 49.7%;
     transform: translate(-50%, -50%);
     color: white;
     background-color: rgba(0, 0, 0, 0.511);
-    padding: 20px 23px 74px 8px;
+    padding: 20px 23px 96px 8px;
     font-size: 1.35em;
 }
 
 .telao p {
+    position: relative;
+    bottom: 65px;
+    right: -7px;
+    color: rgb(255, 255, 255);
+}
+
+#outras {
     position: absolute;
-    top: 63%;
-    left: 32%;
+    top: 116px;
+    left: 1194px;
+    padding: 20px;
+    width: 473px;
+    height: 420px;
+    background-color: var(--cor5);
     color: white;
 }
 
+#outras h3 {
+    margin-top: 35px;
+    color: var(--cor4);
+    text-align: justify;
+}
+
+#outras h3:hover {
+    text-decoration: underline;
+}
