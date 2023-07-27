@@ -17,7 +17,6 @@
 
 body {
     font-family: var(--fontepri);
-    overflow-x: hidden;
 }
 
 header h1 {
@@ -56,12 +55,12 @@ nav a:hover {
 .telao h2 {
     position: absolute;
     display: inline-block;
-    top: 63%;
+    top: 68%;
     left: 49.7%;
     transform: translate(-50%, -50%);
     color: white;
     background-color: rgba(0, 0, 0, 0.511);
-    padding: 20px 23px 96px 8px;
+    padding: 20px 23px 93px 8px;
     font-size: 1.35em;
 }
 
@@ -74,10 +73,10 @@ nav a:hover {
 
 #outras {
     position: absolute;
-    top: 116px;
-    left: 1194px;
+    top: 114px;
+    left: 1100px;
     padding: 20px;
-    width: 473px;
+    width: 396px;
     height: 420px;
     background-color: var(--cor5);
     color: white;
@@ -91,4 +90,73 @@ nav a:hover {
 
 #outras h3:hover {
     text-decoration: underline;
+}
+
+@media(max-width: 1550px){
+    #outras {
+    position: absolute;
+    top: 114px;
+    left: 1100px;
+    padding: 20px;
+    width: 381px;
+    height: 420px;
+    background-color: var(--cor5);
+    color: white;
+    }
+}
+
+#campf1 {
+    position: relative;
+    bottom: 400px;
+    left: 30px;
+    width: 330px;
+    padding: 20px;
+    background-color: aqua;
+    list-style-position: inside;
+}
+
+#campf1 p {
+    display: inline-block;
+    background-color: gray;
+    margin-right: 50px;
+}
+
+#campf1 ol{
+    background-color: white;
+}
+
+#campf1 li {
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+
+}
+
+#campf1 h2 {
+    margin-bottom: 10px;
+}
+
+.flag {
+    display: inline-block;
+    width: 19px;
+    height: 11px;
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+span#france {
+    background-image: url('../imagens/bandeira-frança.png');
+}
+
+span#mexico {
+    background-image: url('../imagens/mexico.png');
+}
+
+span#espanha {
+    background-image: url(../imagens/espanha.png);
+    height: 16px;
+}
+
+span#UK {
+    background-image: url(../imagens/UK.png);
 }
