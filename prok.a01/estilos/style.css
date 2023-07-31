@@ -52,6 +52,7 @@ main {
 }
 
 .telao {
+    position: relative;
     margin: auto;
     max-width: 640px;
     height: 420px;
@@ -67,30 +68,30 @@ main {
 .telao h2 {
     position: absolute;
     display: inline-block;
-    top: 68%;
-    left: 49.7%;
-    transform: translate(-50%, -50%);
+    max-width: 640px;
+    top: 60%;
+    left: 6%;
     color: white;
     background-color: rgba(0, 0, 0, 0.511);
-    padding: 20px 23px 93px 8px;
+    padding: 20px 28px 126px 18px;
     font-size: 1.35em;
 }
 
 .telao p {
-    position: relative;
-    bottom: 65px;
-    right: -7px;
+    position: absolute;
+    bottom: 64px;
+    right: 73px;
+    font-size: 1.1em;
     color: rgb(255, 255, 255);
 }
 
 #outras {
     position: relative;
     bottom: 460px;
-    float: right;
-    display: inline-block;
     padding: 20px;
     max-width: 350px;
     height: 420px;
+    float: right;
     background-color: var(--cor5);
     color: white;
 }
@@ -106,7 +107,6 @@ main {
 }
 
 #campf1 {
-    display: none;
     max-width: 330px;
     padding: 20px;
     background-color: aqua;
@@ -136,26 +136,28 @@ main {
 
 .flag {
     display: inline-block;
-    width: 19px;
-    height: 11px;
+    width: 25px;
+    height: 16px;
     background-color: transparent;
     margin-right: 10px;
 }
 
-span#france {
-    background-image: url('../imagens/bandeira-frança.png');
+span#rbr {
+    background-image: url('../imagens/redbull.png');
+    background-position: center center;
 }
 
-span#mexico {
-    background-image: url('../imagens/mexico.png');
+span#mer {
+    background-image: url('../imagens/mercedes.png');
+    background-position: center center;
 }
 
-span#espanha {
-    background-image: url(../imagens/espanha.png);
-    height: 16px;
+span#ast {
+    background-image: url(../imagens/Aston-Martin-Logo.png);
+    background-position: center center;
 }
 
-span#UK {
+span#fer {
     background-image: url(../imagens/UK.png);
 }
 
@@ -170,5 +172,7 @@ span#UK {
         float: none;
         max-width: 640px;
         margin: auto;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }
