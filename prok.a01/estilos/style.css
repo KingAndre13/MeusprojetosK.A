@@ -43,6 +43,13 @@ nav a:hover {
     color: white;
 }
 
+#logcad {
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
 main {
     position: relative;
 }
@@ -93,7 +100,7 @@ main {
 
 #outras {
     position: relative;
-    bottom: 460px;
+    bottom: 425px;
     padding: 20px;
     max-width: 350px;
     height: 420px;
@@ -112,61 +119,46 @@ main {
     text-decoration: underline;
 }
 
-#campf1 {
-    max-width: 330px;
-    padding: 20px;
-    background-color: var(--cor5);
-    list-style-position: inside;
-}
-
-#campf1 p {
-    display: inline-block;
-    background-color: gray;
-    margin-right: 50px;
-}
-
-#campf1 ol{
+table {
+    width: 300px;
     background-color: white;
+    border-collapse: collapse;
 }
 
-#campf1 li {
-    padding: 10px;
-    border: 1px solid black;
-    margin-bottom: 10px;
-
-}
-
-#campf1 h2 {
-    margin-bottom: 10px;
+caption {
     color: var(--cor4);
+    background-color: var(--cor5);
 }
 
-.flag {
-    display: inline-block;
-    width: 25px;
-    height: 16px;
-    background-color: transparent;
-    margin-right: 10px;
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(218, 206, 206);
+    font-weight: bold;
+    
 }
 
-span#rbr {
-    background-image: url('../imagens/redbull.png');
-    background-position: center center;
+#champ {
+    color: #FFD700;
 }
 
-span#mer {
-    background-image: url('../imagens/mercedes.png');
-    background-position: center center;
+#rb {
+    color: darkblue;
 }
 
-span#ast {
-    background-image: url(../imagens/Aston-Martin-Logo.png);
-    background-position: center center;
+.mc {
+    color: aqua;
 }
 
-span#fer {
-    background-image: url(../imagens/UK.png);
+.fr {
+    color: red;
 }
+
+.am {
+    color: darkgreen;
+}
+
+
 
 @media (max-width: 1450px) {
     .telao {
