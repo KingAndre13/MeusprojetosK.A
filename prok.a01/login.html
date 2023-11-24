@@ -13,8 +13,23 @@
     </header>
     <main>
         <article>
-            <form action="">
-                
+            <form action="cadastro.php" method="post">
+                <fieldset>
+                    <legend>Login</legend>
+                    <p>
+                        <label for="iemail">Email: </label>
+                        <input type="email" name="email" id="iemail" required autocomplete="email">
+                    </p>
+                    <p>
+                        <label for="ipas">Senha: </label>
+                        <input type="password" name="pas" id="ipas" required autocomplete="current-password" minlength="8" maxlength="50">
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Enviar">
+                    </p>
+                    <p>Não tem uma conta? Faça agora seu <a href="cadastro.html"> cadastro aqui!</a></p>
+                </fieldset>
             </form>
         </article>
     </main>

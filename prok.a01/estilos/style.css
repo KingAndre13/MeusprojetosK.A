@@ -158,6 +158,13 @@ td, th {
     color: darkgreen;
 }
 
+fieldset {
+    margin: auto;
+    text-align: center;
+    max-width: 560px;
+    padding: 100px 0px;
+}
+
 
 
 @media (max-width: 1450px) {
