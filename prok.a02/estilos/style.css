@@ -54,6 +54,34 @@ nav > menu > #app > i {
 }
 
 nav > menu > .itens {
-    margin-left: 30px;
+    margin-left: 20px;
     color: #169d53;
+}
+
+#datas {
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#datas > h1 {
+    color: rgb(56, 51, 51);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#datas > .botoes {
+    width: 300px;
+    height: 50px;
+    font-size: 1em;
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+    cursor: pointer;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#datas > .botoes > i {
+    padding: 10px;
 }
