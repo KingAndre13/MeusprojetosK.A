@@ -85,3 +85,14 @@ nav > menu > .itens {
 #datas > .botoes > i {
     padding: 10px;
 }
+
+#imagens {
+    margin: auto;
+    height: 40vh;
+    width: 400px;
+    border-radius: 10px;
+    background-color: aqua;
+    background-image: url(../imagens/maceio.jpg);
+    background-size: cover;
+    background-position: center center;
+}
