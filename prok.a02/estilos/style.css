@@ -95,4 +95,42 @@ nav > menu > .itens {
     background-image: url(../imagens/maceio.jpg);
     background-size: cover;
     background-position: center center;
+    margin-bottom: 30px;
+}
+
+#recom {
+    margin: auto;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #55ccee;
+}
+
+#recom > p {
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+#recom > div {
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #0077b6;
+}
+
+#recom > div > i.material-icons {
+    position: relative;
+    top: 20px;
+    font-size: 2.5em;
+    padding: 10px;
+    color: white;
+}
+
+#recom > div > p {
+    position: relative;
+    bottom: 15px;
+    color: white;
+    text-indent: 60px;
 }
