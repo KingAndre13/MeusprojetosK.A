@@ -15,7 +15,7 @@ header {
     text-align: left;
     background-color: rgb(255, 255, 255);
     height: 70px;
-    width: 100vw;
+    width: 96vw;
     border-bottom: 1px solid lightgray;
 }
 
@@ -62,6 +62,7 @@ nav > menu > .itens {
     width: 300px;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #datas > h1 {
@@ -86,16 +87,92 @@ nav > menu > .itens {
     padding: 10px;
 }
 
-#imagens {
+#slider {
     margin: auto;
-    height: 35vh;
     width: 350px;
+    height: 219px;
+    overflow: hidden;
+}
+
+#imagens {
+    width: 200%;
+    height: 219px;
+    display: flex;
+}
+
+#imagens input {
+    display: none;
+}
+
+.slide {
+    width: 50%;
+    position: relative;
+    transition: 1s;
+}
+
+.slide img {
+    width: 350px;
+    height: 219px;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 350px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid white;
+    padding: 5px;
     border-radius: 10px;
-    background-color: aqua;
-    background-image: url(../imagens/maceio.jpg);
-    background-size: cover;
-    background-position: center center;
-    margin-bottom: 30px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 20px;
+}
+
+.manual-btn:hover {
+    background-color: white;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -50%;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 350px;
+    margin-top: 199px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div {
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 20px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: white;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: white;
 }
 
 #recom {
@@ -104,6 +181,7 @@ nav > menu > .itens {
     height: 200px;
     border-radius: 10px;
     background-color: #55ccee;
+    margin-top: 20px;
 }
 
 #recom > p {
@@ -130,9 +208,9 @@ nav > menu > .itens {
 
 #recom > div > p {
     position: relative;
-    bottom: 15px;
+    bottom: 18px;
     color: white;
-    text-indent: 60px;
+    text-indent: 70px;
 }
 
 #ideal {
@@ -154,11 +232,15 @@ nav > menu > .itens {
     margin-right: 10px;
 }
 
+#ideal > div:hover {
+    background-color: #169d53;
+    cursor: pointer;
+}
+
 #ideal > div > i {
     font-size: 2.5em;
     color: white;
     margin-top: 20px;
-    cursor: default;
 }
 
 #ideal > div > p {
