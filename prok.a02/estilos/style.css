@@ -214,7 +214,20 @@ nav > menu > .itens {
 }
 
 #ideal {
+    width: 350px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
     text-align: center;
+
+}
+
+#ideal #idealti {
+    margin-bottom: 20px;
 }
 
 #ideal > p {
@@ -223,13 +236,11 @@ nav > menu > .itens {
 }
 
 #ideal > div {
-    display: inline-block;
+    display: block;
     width: 75px;
     height: 75px;
     border-radius: 50%;
     background-color: #0077b6;
-    text-align: center;
-    margin-right: 10px;
 }
 
 #ideal > div:hover {
@@ -244,7 +255,14 @@ nav > menu > .itens {
 }
 
 #ideal > div > p {
-    margin-top: 5px;
+    text-align: center;
+    margin-top: 10px;
     font-size: 1.1em;
 }
 
+footer {
+    background-color: #169d53;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

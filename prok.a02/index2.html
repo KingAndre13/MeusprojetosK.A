@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha o seu quarto</title>
+    <style>
+     @charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*box-sizing: border-box;*/
+}
+
+html, body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 96vw;
+    border-bottom: 1px solid lightgray;
+}
+
+header > #logo {
+    display: inline-block;
+}
+
+header > #logo > img {
+    width: 75px;
+    height: 75px;
+}
+
+nav {
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+nav > menu > #app {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+nav > menu > a > i {
+    position: relative;
+    top: 6px;
+}
+
+nav > menu > #app > i {
+    color: blue;
+}
+
+nav > menu > .itens {
+    margin-left: 20px;
+    color: #169d53;
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+#a1 {
+    width: 350px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.203);
+}
+
+#pa1 {
+    display: block;
+    background-image: url(./imagens/quarto.ecom.jpg);
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+}
+
+#a1 h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+#a1 ul {
+    list-style: inside;
+    margin-left: 10px;
+}
+
+#a1 button {
+    margin-top: 30px;
+    margin-left: 120px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+    </style>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="./imagens/logo.png.png" alt="logo do site">
+        </div>
+        <nav>
+            <menu>
+                <a id="app" href="#"><i class="material-icons">smartphone</i> Baixar app</a>
+
+                <a class="itens" href="#"><i class="material-icons">search</i></a>
+
+                <a class="itens" href="#"><i class="material-icons">work</i></a>
+
+                <a class="itens" href="#"><i class="material-icons">person</i></a>
+            </menu>
+        </nav>
+    </header>
+    <main>
+        <h2>Escolha o quarto</h2>
+        <section id="a1">
+            <picture id="pa1">
+            </picture>
+            <h3>Quarto Econômico</h3>
+            <ul>
+                <li>1 Cama de Casal</li>
+                <li>Ambiente Climatizado</li>
+                <li>Vista para o Mar</li>
+            </ul>
+            <button>Reservar</button>
+        </section>
+    </main>
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>
