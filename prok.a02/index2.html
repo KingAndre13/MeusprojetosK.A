@@ -77,11 +77,14 @@ h2 {
 }
 
 #a1 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     width: 350px;
     height: 500px;
     padding: 10px;
     border-radius: 10px;
-    background-color: rgba(128, 128, 128, 0.203);
+    border: 2px solid rgba(0, 0, 0, 0.511);
 }
 
 #pa1 {
@@ -90,23 +93,33 @@ h2 {
     background-size: cover;
     width: 350px;
     height: 300px;
+    border-radius: 10px;
 }
 
 #a1 h3 {
-    text-align: center;
-    padding: 10px;
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+#a1 h4 {
+    margin: 10px 0px;
+    font-size: 1.3em;
+  
 }
 
 #a1 ul {
     list-style: inside;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 #a1 button {
-    margin-top: 30px;
-    margin-left: 120px;
+    margin-top: 20px;
     width: 100px;
     height: 40px;
+    border-radius: 10px;
+    background-color: #169d53;
+    color: white;
+    border: none;
     cursor: pointer;
 }
     </style>
@@ -137,6 +150,7 @@ h2 {
             <picture id="pa1">
             </picture>
             <h3>Quarto Econômico</h3>
+            <h4>R$: 99,99</h4>
             <ul>
                 <li>1 Cama de Casal</li>
                 <li>Ambiente Climatizado</li>
